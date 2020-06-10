@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test2(failed)">
+  <test name="Test1(failed)">
     <classes>
       <class name="GaneshBorkar.JobSearch.Monster">
         <methods>
-          <include name="tearApart"/>
+          <include name="updateProfile"/>
           <include name="Driver"/>
+          <include name="login"/>
         </methods>
       </class> <!-- GaneshBorkar.JobSearch.Monster -->
       <class name="GaneshBorkar.JobSearch.Naukri">
         <methods>
           <include name="invoke"/>
+        </methods>
+      </class> <!-- GaneshBorkar.JobSearch.Naukri -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <classes>
+      <class name="GaneshBorkar.JobSearch.Monster">
+        <methods>
+          <include name="Driver"/>
+        </methods>
+      </class> <!-- GaneshBorkar.JobSearch.Monster -->
+      <class name="GaneshBorkar.JobSearch.Naukri">
+        <methods>
+          <include name="login"/>
+          <include name="invoke"/>
           <include name="updateProfile"/>
-          <include name="tearApart"/>
         </methods>
       </class> <!-- GaneshBorkar.JobSearch.Naukri -->
     </classes>

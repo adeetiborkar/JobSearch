@@ -17,7 +17,7 @@ public class Naukri extends Base {
 	public WebDriver driver;
 	
 	@BeforeTest
-	public void invoke() throws InterruptedException {
+	public void invoke() throws InterruptedException, IOException {
 		
 		driver = intialize();
 		driver.get("https://www.naukri.com/");

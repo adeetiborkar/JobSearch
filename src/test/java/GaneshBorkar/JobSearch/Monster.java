@@ -17,7 +17,7 @@ public class Monster extends Base {
 	public WebDriver driver;
 
 	@BeforeTest
-	public void Driver() throws InterruptedException {
+	public void Driver() throws InterruptedException, IOException {
 
 		driver = intialize();
 		driver.get("https://www.monsterindia.com/");

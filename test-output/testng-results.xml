@@ -1,49 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="82667" started-at="2020-06-10T17:33:35Z" finished-at="2020-06-10T17:34:57Z">
+  <suite name="Default suite" duration-ms="46218" started-at="2020-06-10T17:59:36Z" finished-at="2020-06-10T18:00:23Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="45716" started-at="2020-06-10T17:33:35Z" finished-at="2020-06-10T17:34:21Z">
+    <test name="Default test" duration-ms="46218" started-at="2020-06-10T17:59:36Z" finished-at="2020-06-10T18:00:23Z">
       <class name="GaneshBorkar.JobSearch.Monster">
-        <test-method status="PASS" signature="Driver()[pri:0, instance:GaneshBorkar.JobSearch.Monster@457e2f02]" name="Driver" is-config="true" duration-ms="13796" started-at="2020-06-10T23:03:35Z" finished-at="2020-06-10T23:03:49Z">
+        <test-method status="PASS" signature="Driver()[pri:0, instance:GaneshBorkar.JobSearch.Monster@457e2f02]" name="Driver" is-config="true" duration-ms="22463" started-at="2020-06-10T23:29:36Z" finished-at="2020-06-10T23:29:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Driver -->
-        <test-method status="PASS" signature="login()[pri:1, instance:GaneshBorkar.JobSearch.Monster@457e2f02]" name="login" duration-ms="5733" started-at="2020-06-10T23:03:49Z" finished-at="2020-06-10T23:03:54Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:GaneshBorkar.JobSearch.Monster@457e2f02]" name="login" duration-ms="3702" started-at="2020-06-10T23:29:59Z" finished-at="2020-06-10T23:30:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="updateProfile()[pri:2, instance:GaneshBorkar.JobSearch.Monster@457e2f02]" name="updateProfile" duration-ms="24539" started-at="2020-06-10T23:03:54Z" finished-at="2020-06-10T23:04:19Z">
+        <test-method status="PASS" signature="updateProfile()[pri:2, instance:GaneshBorkar.JobSearch.Monster@457e2f02]" name="updateProfile" duration-ms="18986" started-at="2020-06-10T23:30:03Z" finished-at="2020-06-10T23:30:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updateProfile -->
-        <test-method status="PASS" signature="tearApart()[pri:0, instance:GaneshBorkar.JobSearch.Monster@457e2f02]" name="tearApart" is-config="true" duration-ms="1559" started-at="2020-06-10T23:04:19Z" finished-at="2020-06-10T23:04:21Z">
+        <test-method status="PASS" signature="tearApart()[pri:0, instance:GaneshBorkar.JobSearch.Monster@457e2f02]" name="tearApart" is-config="true" duration-ms="1021" started-at="2020-06-10T23:30:22Z" finished-at="2020-06-10T23:30:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearApart -->
       </class> <!-- GaneshBorkar.JobSearch.Monster -->
-    </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="36191" started-at="2020-06-10T17:34:21Z" finished-at="2020-06-10T17:34:57Z">
-      <class name="GaneshBorkar.JobSearch.Naukri">
-        <test-method status="PASS" signature="invoke()[pri:0, instance:GaneshBorkar.JobSearch.Naukri@3ffc5af1]" name="invoke" is-config="true" duration-ms="9860" started-at="2020-06-10T23:04:21Z" finished-at="2020-06-10T23:04:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invoke -->
-        <test-method status="PASS" signature="login()[pri:0, instance:GaneshBorkar.JobSearch.Naukri@3ffc5af1]" name="login" duration-ms="11320" started-at="2020-06-10T23:04:31Z" finished-at="2020-06-10T23:04:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="updateProfile()[pri:1, instance:GaneshBorkar.JobSearch.Naukri@3ffc5af1]" name="updateProfile" duration-ms="13853" started-at="2020-06-10T23:04:42Z" finished-at="2020-06-10T23:04:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- updateProfile -->
-        <test-method status="PASS" signature="tearApart()[pri:0, instance:GaneshBorkar.JobSearch.Naukri@3ffc5af1]" name="tearApart" is-config="true" duration-ms="1152" started-at="2020-06-10T23:04:56Z" finished-at="2020-06-10T23:04:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearApart -->
-      </class> <!-- GaneshBorkar.JobSearch.Naukri -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
